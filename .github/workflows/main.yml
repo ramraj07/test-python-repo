@@ -24,8 +24,5 @@ jobs:
       
     - name: Run Black Manually
       run: |
+        pip install black
         black .
-
-    - name: Black Check
-      uses: jpetrucciani/black-check@19.10b0
-
